@@ -5730,6 +5730,7 @@ Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323
 Started GET "/assets/callbacks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-15 16:13:29 +0300
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2015-09-23 14:35:13 +0300
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by Rails::WelcomeController#index as HTML
@@ -5852,3 +5853,59 @@ Started GET "/" for 127.0.0.1 at 2015-09-23 15:31:47 +0300
 Processing by Rails::WelcomeController#index as HTML
   Rendered /home/igor/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
 Completed 200 OK in 24ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/" for 127.0.0.1 at 2015-09-22 20:43:14 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/igor/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 18ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-09-22 20:43:21 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (57.5ms)
+Completed 200 OK in 5019ms (Views: 4960.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-35ad2ea42b643a724b2cd4298acee67c007c30867d0ffa4a7ccf9969af9d9b2b.css?body=1" for 127.0.0.1 at 2015-09-22 20:43:26 +0300
+
+
+Started GET "/assets/adapters/application_adapter.self-cd127d0166fb7523b55eaf3fe1cb560ddc38c9345d5d0ae6e388d32d41113e2e.js?body=1" for 127.0.0.1 at 2015-09-22 20:43:27 +0300
+
+
+Started GET "/assets/ember.self-c53804f6dea10dcfa70240071658d1d5e438f6fe763e3691c5798ee81f373856.js?body=1" for 127.0.0.1 at 2015-09-22 20:43:27 +0300
+
+
+Started GET "/assets/ember-data.self-6a7e53a66345eb05377f6cae0ed70ba90b454a820e4c788e52b434cf57f34b18.js?body=1" for 127.0.0.1 at 2015-09-22 20:43:27 +0300
+
+
+Started GET "/assets/active-model-adapter.self-00358428c675956677d9d09f4528a6f39372aee12bec7550671afd39cb4b9700.js?body=1" for 127.0.0.1 at 2015-09-22 20:43:27 +0300
+
+
+Started GET "/assets/router.self-6b31f36f8a22b52c60f69a806a9fec27fcea8724e71dec3881614ab60e511410.js?body=1" for 127.0.0.1 at 2015-09-22 20:43:27 +0300
+
+
+Started GET "/assets/kode_ws.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-22 20:43:27 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 21:15:27 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/igor/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2015-09-22 21:15:31 +0300
+Processing by Rails::InfoController#properties as */*
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  Rendered /home/igor/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/info/properties.html.erb (0.5ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-09-22 21:19:41 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 263ms (Views: 247.1ms | ActiveRecord: 0.4ms)
+>>>>>>> add_ember

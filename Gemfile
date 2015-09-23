@@ -28,6 +28,9 @@ gem 'omniauth', '~> 1.2.2'
 gem 'omniauth-github', '~> 1.1.2'
 gem 'bootstrap-sass', '~> 3.3.5'
 
+gem 'ember-source', '~> 2.0.2'
+gem 'ember-rails', '~> 0.19.2'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
