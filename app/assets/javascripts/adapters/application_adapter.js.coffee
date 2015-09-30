@@ -1,5 +1,3 @@
-# Override the default adapter with the `DS.ActiveModelAdapter` which
-
-KodeWS.ApplicationAdapter = DS.ActiveModelAdapter.extend({
+KodeWs.ApplicationAdapter = DS.ActiveModelAdapter.extend({
 
 })

@@ -23,6 +23,7 @@ gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
 gem 'haml-rails'
+gem 'handlebars_assets'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
