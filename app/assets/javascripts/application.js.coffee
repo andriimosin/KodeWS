@@ -8,4 +8,3 @@
 
 # for more details see: http://emberjs.com/guides/application/
 window.KodeWS = Ember.Application.create()
-

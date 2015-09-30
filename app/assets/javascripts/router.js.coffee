@@ -2,4 +2,3 @@
 
 KodeWS.Router.map ()->
   # @resource('posts')
-
