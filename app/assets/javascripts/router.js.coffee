@@ -1,5 +1,3 @@
-# For more information see: http://emberjs.com/guides/routing/
-
-KodeWS.Router.map ()->
-  # @resource('posts')
-
+KodeWs.Router.map ()->
+  @resource('tips')
+  @resource('dashboard')

@@ -1,0 +1,17 @@
+!!!
+%html(lang="en-US")
+  %head
+    %title Launch Bay
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+
+    - if user_signed_in?
+      %li= link_to "Dashboard", dashboard_index_path + '/#/dashboard'
+      %li= link_to "Tips", dashboard_index_path + '/#/tips'
+      %li= link_to raw('<strong>Logout</strong>'), destroy_user_session_path, method: :delete, :title => 'Logout'
+    - else
+      %li= link_to raw('<strong>Login</strong>'), user_session_path
+
+  %body
+    = yield
