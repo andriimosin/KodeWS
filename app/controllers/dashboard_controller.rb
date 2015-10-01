@@ -5,4 +5,5 @@ class DashboardController < ApplicationController
   def index
     @tips = Tip.all
   end
+
 end

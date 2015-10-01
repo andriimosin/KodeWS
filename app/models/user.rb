@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  validates_presence_of :uid, :provider
+  validates_uniqueness_of :uid, :scope => :provider
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and 
   devise :database_authenticatable, :registerable,
